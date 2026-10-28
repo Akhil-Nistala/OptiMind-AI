@@ -1,0 +1,34 @@
+{
+  "synthetic": true,
+  "seed": 42,
+  "rows": 42,
+  "machines": [
+    "M0",
+    "M1",
+    "M2"
+  ],
+  "previous": [
+    "2026-10-05",
+    "2026-10-11"
+  ],
+  "current": [
+    "2026-10-12",
+    "2026-10-18"
+  ],
+  "mechanism": "M1 current-period output -25 and downtime +90 minutes; small seeded noise; one M2 downtime missing",
+  "reference": {
+    "previous": {
+      "quantity": 2101,
+      "known_downtime": 643,
+      "missing_downtime": 0,
+      "target": 2100
+    },
+    "current": {
+      "quantity": 1918,
+      "known_downtime": 1236,
+      "missing_downtime": 1,
+      "target": 2100
+    },
+    "delta_quantity": -183
+  }
+}

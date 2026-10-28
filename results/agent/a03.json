@@ -1,0 +1,387 @@
+{
+  "question": "How should compressed air leaks be detected?",
+  "plan": [
+    "retrieve_and_answer"
+  ],
+  "observations": [],
+  "metrics": {},
+  "document_evidence": {
+    "question": "How should compressed air leaks be detected?",
+    "answer": "\u2022 Once leaks are repaired, re-evaluate your compressed air system supply.",
+    "abstained": false,
+    "citations": [
+      {
+        "chunk_id": "3ab955e01d9b3312",
+        "document_id": "doe_air_leaks",
+        "title": "Minimize Compressed Air Leaks",
+        "page": 1,
+        "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+        "path": "data\\documents\\compressed_air_leaks.pdf",
+        "quote": "\u2022 Once leaks are repaired, re-evaluate your compressed air system supply."
+      }
+    ],
+    "passages": [
+      {
+        "id": "6fc7affd64378833",
+        "document_id": "doe_air_leaks",
+        "text": "compressor run time must be reduced to match the reduced demand. References From Compressed Air Challenge \u00ae (CAC): The Compressed Air System Best Practices Manual, Guidelines for Selecting a Compressed Air System Service Provider From DOE\u2019s Industrial Technologies Program and CAC: Improving Compressed Air System Performance: A Sourcebook for Industry Training \u2022 Fundamentals of Compressed Air Systems \u2013 1 day \u2022 Advanced Management of Compressed Air Systems \u2013 2 days Offered by the Compressed Air Challenge; for the latest course schedule and locations see www.compressedairchallenge.org Minimize Compressed Air Leaks Leaks are a significant source of wasted energy in a compressed air system, often wasting as much as 20%-30% of the",
+        "page": 1,
+        "chunk": 1,
+        "title": "Minimize Compressed Air Leaks",
+        "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+        "path": "data\\documents\\compressed_air_leaks.pdf",
+        "publisher": "U.S. Department of Energy / NREL",
+        "license": "DOE technical tip sheet; retain attribution and original notices",
+        "source_sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+        "score": 0.03177805800756621,
+        "bm25_score": 4.145301004107623,
+        "semantic_score": 0.49878180027008057
+      },
+      {
+        "id": "c9e3940e67f9a4f8",
+        "document_id": "doe_air_leaks",
+        "text": "detector, which can recognize high frequency hissing sounds associated with air leaks. These portable units are very easy to use. Costs and sensitivities vary, so test before you buy. A simpler method is to apply soapy water with a paintbrush to suspect areas. Although reliable, this method can be time consuming and messy. Example A chemical plant undertook a leak-prevention program following a compressed air audit at their facility. Leaks, approximately equivalent to different orifice sizes, were found as follows: 100 leaks of 1/32\u201d at 90 pounds per square inch gauge (psig), 50 leaks of 1/16\u201d at 90 psig, and 10 leaks of 1/4\u201d at 100 psig. Calculate the annual",
+        "page": 1,
+        "chunk": 4,
+        "title": "Minimize Compressed Air Leaks",
+        "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+        "path": "data\\documents\\compressed_air_leaks.pdf",
+        "publisher": "U.S. Department of Energy / NREL",
+        "license": "DOE technical tip sheet; retain attribution and original notices",
+        "source_sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+        "score": 0.03177805800756621,
+        "bm25_score": 3.3478093103034023,
+        "semantic_score": 0.7000836133956909
+      },
+      {
+        "id": "3ab955e01d9b3312",
+        "document_id": "doe_air_leaks",
+        "text": "Energy Tips \u2013 Compressed Air Compressed Air Tip Sheet #3 \u2022 August 2004 Industrial Technologies Program Suggested Actions \u2022 Fixing leaks once is not enough. Incorporate a leak prevention program into operations at your facility. It should include identification and tagging, tracking, repair, verification, and employee involvement. Set a reasonable target for cost-effective leak reduction\u20145%-10% of total system flow is typical for industrial facilities. \u2022 Once leaks are repaired, re-evaluate your compressed air system supply. Work with a compressed air systems specialist to adjust compressor controls. To maximize energy savings, compressor run time must be reduced to match the reduced demand. References From Compressed Air Challenge \u00ae (CAC): The Compressed",
+        "page": 1,
+        "chunk": 0,
+        "title": "Minimize Compressed Air Leaks",
+        "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+        "path": "data\\documents\\compressed_air_leaks.pdf",
+        "publisher": "U.S. Department of Energy / NREL",
+        "license": "DOE technical tip sheet; retain attribution and original notices",
+        "source_sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+        "score": 0.031754032258064516,
+        "bm25_score": 3.8470932950345,
+        "semantic_score": 0.5899349451065063
+      },
+      {
+        "id": "1f4b02a3fb95e27b",
+        "document_id": "doe_air_leaks",
+        "text": "are a significant source of wasted energy in a compressed air system, often wasting as much as 20%-30% of the compressor\u2019s output. Compressed air leaks can also contribute to problems with system operations, including: \u2022 Fluctuating system pressure, which can cause air tools and other air-operated equipment to function less efficiently, possibly affecting production \u2022 Excess compressor capacity, resulting in higher than necessary costs \u2022 Decreased service life and increased maintenance of supply equipment (including the compressor package) due to unnecessary cycling and increased run time. Although leaks can occur in any part of the system, the most common problem areas are couplings, hoses, tubes, fittings, pipe joints, quick disconnects,",
+        "page": 1,
+        "chunk": 2,
+        "title": "Minimize Compressed Air Leaks",
+        "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+        "path": "data\\documents\\compressed_air_leaks.pdf",
+        "publisher": "U.S. Department of Energy / NREL",
+        "license": "DOE technical tip sheet; retain attribution and original notices",
+        "source_sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+        "score": 0.03149801587301587,
+        "bm25_score": 3.443271661455933,
+        "semantic_score": 0.6087884902954102
+      },
+      {
+        "id": "e50e66d62b9114e3",
+        "document_id": "doe_air_leaks",
+        "text": "in any part of the system, the most common problem areas are couplings, hoses, tubes, fittings, pipe joints, quick disconnects, FRLs (filter, regulator, and lubricator), condensate traps, valves, flanges, packings, thread sealants, and point-of-use devices. Leakage rates are a function of the supply pressure in an uncontrolled system and increase with higher system pressures. Leakage rates identified in cubic feet per minute (cfm) are also proportional to the square of the orifice diameter. See table below. Leak Detection The best way to detect leaks is to use an ultrasonic acoustic detector, which can recognize high frequency hissing sounds associated with air leaks. These portable units are very easy to use.",
+        "page": 1,
+        "chunk": 3,
+        "title": "Minimize Compressed Air Leaks",
+        "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+        "path": "data\\documents\\compressed_air_leaks.pdf",
+        "publisher": "U.S. Department of Energy / NREL",
+        "license": "DOE technical tip sheet; retain attribution and original notices",
+        "source_sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+        "score": 0.0304147465437788,
+        "bm25_score": 1.976124691526134,
+        "semantic_score": 0.6781193017959595
+      },
+      {
+        "id": "3cf30114c69f81f4",
+        "document_id": "doe_air_cost",
+        "text": "Determine the Cost of Compressed Air for Your Plant Most industrial facilities need some form of compressed air, whether for running a simple air tool or for more complicated tasks such as operation of pneumatic controls. A recent survey by the U.S. Department of Energy showed that for a typical industrial facility, approximately 10% of the electricity consumed is for generating compressed air. For some facilities, compressed air generation may account for 30% or more of the electricity consumed. Compressed air is an on-site generated utility. Very often the cost of generation is not known; however, some companies use a value of 15-30 cents per 1000 cubic feet of air.",
+        "page": 1,
+        "chunk": 0,
+        "title": "Determine the Cost of Compressed Air for Your Plant",
+        "source_url": "https://www.energystar.gov/sites/default/files/buildings/tools/compressed_air1.pdf",
+        "path": "data\\documents\\compressed_air_cost.pdf",
+        "publisher": "U.S. Department of Energy",
+        "license": "DOE government information; public-domain notice, retain attribution",
+        "source_sha256": "af4b566e3e6c4280488bdee5fb2d47f418baba5ecf6a4fd22997498cdb59b9cd",
+        "score": 0.030303030303030304,
+        "bm25_score": 2.6443465052769843,
+        "semantic_score": 0.42484742403030396
+      },
+      {
+        "id": "cc8b224c0653b5e7",
+        "document_id": "doe_air_leaks",
+        "text": "systems for industry. You can access these resources and more by visiting the BestPractices Web site at www.eere.energy.gov/industry/bestpractices or by contacting the EERE Information Center at 877-337-3463 or via the Web at www.eere.energy.gov/informationcenter/. savings if these leaks were eliminated. Assume 7,000 annual operating hours, an aggregate electric rate of $0.05 kilowatt-hour (kWh), and compressed air generation requirement of approximately 18 kilowatts (kW)/100 cfm. Cost savings = # of leaks x leakage rate (cfm) x kW/cfm x # of hours x $/kWh Using values of the leakage rates from the above table and assuming sharp-edged orifi ces: Cost savings from 1/32\u201d leaks = 100 x 1.46 x 0.61 x 0.18 x",
+        "page": 2,
+        "chunk": 5,
+        "title": "Minimize Compressed Air Leaks",
+        "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+        "path": "data\\documents\\compressed_air_leaks.pdf",
+        "publisher": "U.S. Department of Energy / NREL",
+        "license": "DOE technical tip sheet; retain attribution and original notices",
+        "source_sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+        "score": 0.029850746268656716,
+        "bm25_score": 2.6010968648097244,
+        "semantic_score": 0.421659380197525
+      },
+      {
+        "id": "8b27031d7d1a62e5",
+        "document_id": "doe_air_cost",
+        "text": "aggregate electric rate is $0.05/kWh. Cost when fully loaded = Cost when partially loaded = Annual energy cost = $48,792 + $2,272 = $51,064 Compressed AirMotorsSteam Suggested Actions \u2022 Determine the cost of compressed air for your plant by periodically monitoring the compressor operating hours and load duty cycle. \u2022 Use a systems approach while operating and maintaining a compressed air system. \u2022 Adopt a plant-wide compressed air management policy to cut costs and reduce waste by eliminating inappropriate uses, fixing leaks, and matching system supply with demand. References Improving Compressed Air System Performance: A Sourcebook for the Industry, Motor Challenge and Compressed Air Challenge, April 1998. T raining \u2022",
+        "page": 1,
+        "chunk": 3,
+        "title": "Determine the Cost of Compressed Air for Your Plant",
+        "source_url": "https://www.energystar.gov/sites/default/files/buildings/tools/compressed_air1.pdf",
+        "path": "data\\documents\\compressed_air_cost.pdf",
+        "publisher": "U.S. Department of Energy",
+        "license": "DOE government information; public-domain notice, retain attribution",
+        "source_sha256": "af4b566e3e6c4280488bdee5fb2d47f418baba5ecf6a4fd22997498cdb59b9cd",
+        "score": 0.02886002886002886,
+        "bm25_score": 3.4719124645552366,
+        "semantic_score": 0.29443490505218506
+      }
+    ],
+    "raw_model_output": "Leak Detection",
+    "supporting_evidence": [
+      {
+        "quote": "\u2022 Once leaks are repaired, re-evaluate your compressed air system supply.",
+        "chunk_id": "3ab955e01d9b3312",
+        "document_id": "doe_air_leaks",
+        "title": "Minimize Compressed Air Leaks",
+        "page": 1,
+        "path": "data\\documents\\compressed_air_leaks.pdf",
+        "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf"
+      },
+      {
+        "quote": "Leak Detection The best way to detect leaks is to use an ultrasonic acoustic detector, which can recognize high frequency hissing sounds associated with air leaks.",
+        "chunk_id": "e50e66d62b9114e3",
+        "document_id": "doe_air_leaks",
+        "title": "Minimize Compressed Air Leaks",
+        "page": 1,
+        "path": "data\\documents\\compressed_air_leaks.pdf",
+        "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf"
+      }
+    ],
+    "answer_mode": "evidence_extract_after_rejected_draft",
+    "latency_ms": 2514.588399993954
+  },
+  "hypotheses": [],
+  "recommended_actions": [
+    "Inspect the cited reference passage before applying its guidance to a particular machine."
+  ],
+  "schedule_proposal": null,
+  "human_review_required": false,
+  "limitations": [],
+  "supported": true,
+  "tool_calls": [
+    {
+      "tool": "retrieve_and_answer",
+      "inputs": {
+        "question": "How should compressed air leaks be detected?"
+      },
+      "status": "ok",
+      "milliseconds": 2514.653799997177,
+      "output": {
+        "question": "How should compressed air leaks be detected?",
+        "answer": "\u2022 Once leaks are repaired, re-evaluate your compressed air system supply.",
+        "abstained": false,
+        "citations": [
+          {
+            "chunk_id": "3ab955e01d9b3312",
+            "document_id": "doe_air_leaks",
+            "title": "Minimize Compressed Air Leaks",
+            "page": 1,
+            "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+            "path": "data\\documents\\compressed_air_leaks.pdf",
+            "quote": "\u2022 Once leaks are repaired, re-evaluate your compressed air system supply."
+          }
+        ],
+        "passages": [
+          {
+            "id": "6fc7affd64378833",
+            "document_id": "doe_air_leaks",
+            "text": "compressor run time must be reduced to match the reduced demand. References From Compressed Air Challenge \u00ae (CAC): The Compressed Air System Best Practices Manual, Guidelines for Selecting a Compressed Air System Service Provider From DOE\u2019s Industrial Technologies Program and CAC: Improving Compressed Air System Performance: A Sourcebook for Industry Training \u2022 Fundamentals of Compressed Air Systems \u2013 1 day \u2022 Advanced Management of Compressed Air Systems \u2013 2 days Offered by the Compressed Air Challenge; for the latest course schedule and locations see www.compressedairchallenge.org Minimize Compressed Air Leaks Leaks are a significant source of wasted energy in a compressed air system, often wasting as much as 20%-30% of the",
+            "page": 1,
+            "chunk": 1,
+            "title": "Minimize Compressed Air Leaks",
+            "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+            "path": "data\\documents\\compressed_air_leaks.pdf",
+            "publisher": "U.S. Department of Energy / NREL",
+            "license": "DOE technical tip sheet; retain attribution and original notices",
+            "source_sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+            "score": 0.03177805800756621,
+            "bm25_score": 4.145301004107623,
+            "semantic_score": 0.49878180027008057
+          },
+          {
+            "id": "c9e3940e67f9a4f8",
+            "document_id": "doe_air_leaks",
+            "text": "detector, which can recognize high frequency hissing sounds associated with air leaks. These portable units are very easy to use. Costs and sensitivities vary, so test before you buy. A simpler method is to apply soapy water with a paintbrush to suspect areas. Although reliable, this method can be time consuming and messy. Example A chemical plant undertook a leak-prevention program following a compressed air audit at their facility. Leaks, approximately equivalent to different orifice sizes, were found as follows: 100 leaks of 1/32\u201d at 90 pounds per square inch gauge (psig), 50 leaks of 1/16\u201d at 90 psig, and 10 leaks of 1/4\u201d at 100 psig. Calculate the annual",
+            "page": 1,
+            "chunk": 4,
+            "title": "Minimize Compressed Air Leaks",
+            "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+            "path": "data\\documents\\compressed_air_leaks.pdf",
+            "publisher": "U.S. Department of Energy / NREL",
+            "license": "DOE technical tip sheet; retain attribution and original notices",
+            "source_sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+            "score": 0.03177805800756621,
+            "bm25_score": 3.3478093103034023,
+            "semantic_score": 0.7000836133956909
+          },
+          {
+            "id": "3ab955e01d9b3312",
+            "document_id": "doe_air_leaks",
+            "text": "Energy Tips \u2013 Compressed Air Compressed Air Tip Sheet #3 \u2022 August 2004 Industrial Technologies Program Suggested Actions \u2022 Fixing leaks once is not enough. Incorporate a leak prevention program into operations at your facility. It should include identification and tagging, tracking, repair, verification, and employee involvement. Set a reasonable target for cost-effective leak reduction\u20145%-10% of total system flow is typical for industrial facilities. \u2022 Once leaks are repaired, re-evaluate your compressed air system supply. Work with a compressed air systems specialist to adjust compressor controls. To maximize energy savings, compressor run time must be reduced to match the reduced demand. References From Compressed Air Challenge \u00ae (CAC): The Compressed",
+            "page": 1,
+            "chunk": 0,
+            "title": "Minimize Compressed Air Leaks",
+            "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+            "path": "data\\documents\\compressed_air_leaks.pdf",
+            "publisher": "U.S. Department of Energy / NREL",
+            "license": "DOE technical tip sheet; retain attribution and original notices",
+            "source_sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+            "score": 0.031754032258064516,
+            "bm25_score": 3.8470932950345,
+            "semantic_score": 0.5899349451065063
+          },
+          {
+            "id": "1f4b02a3fb95e27b",
+            "document_id": "doe_air_leaks",
+            "text": "are a significant source of wasted energy in a compressed air system, often wasting as much as 20%-30% of the compressor\u2019s output. Compressed air leaks can also contribute to problems with system operations, including: \u2022 Fluctuating system pressure, which can cause air tools and other air-operated equipment to function less efficiently, possibly affecting production \u2022 Excess compressor capacity, resulting in higher than necessary costs \u2022 Decreased service life and increased maintenance of supply equipment (including the compressor package) due to unnecessary cycling and increased run time. Although leaks can occur in any part of the system, the most common problem areas are couplings, hoses, tubes, fittings, pipe joints, quick disconnects,",
+            "page": 1,
+            "chunk": 2,
+            "title": "Minimize Compressed Air Leaks",
+            "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+            "path": "data\\documents\\compressed_air_leaks.pdf",
+            "publisher": "U.S. Department of Energy / NREL",
+            "license": "DOE technical tip sheet; retain attribution and original notices",
+            "source_sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+            "score": 0.03149801587301587,
+            "bm25_score": 3.443271661455933,
+            "semantic_score": 0.6087884902954102
+          },
+          {
+            "id": "e50e66d62b9114e3",
+            "document_id": "doe_air_leaks",
+            "text": "in any part of the system, the most common problem areas are couplings, hoses, tubes, fittings, pipe joints, quick disconnects, FRLs (filter, regulator, and lubricator), condensate traps, valves, flanges, packings, thread sealants, and point-of-use devices. Leakage rates are a function of the supply pressure in an uncontrolled system and increase with higher system pressures. Leakage rates identified in cubic feet per minute (cfm) are also proportional to the square of the orifice diameter. See table below. Leak Detection The best way to detect leaks is to use an ultrasonic acoustic detector, which can recognize high frequency hissing sounds associated with air leaks. These portable units are very easy to use.",
+            "page": 1,
+            "chunk": 3,
+            "title": "Minimize Compressed Air Leaks",
+            "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+            "path": "data\\documents\\compressed_air_leaks.pdf",
+            "publisher": "U.S. Department of Energy / NREL",
+            "license": "DOE technical tip sheet; retain attribution and original notices",
+            "source_sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+            "score": 0.0304147465437788,
+            "bm25_score": 1.976124691526134,
+            "semantic_score": 0.6781193017959595
+          },
+          {
+            "id": "3cf30114c69f81f4",
+            "document_id": "doe_air_cost",
+            "text": "Determine the Cost of Compressed Air for Your Plant Most industrial facilities need some form of compressed air, whether for running a simple air tool or for more complicated tasks such as operation of pneumatic controls. A recent survey by the U.S. Department of Energy showed that for a typical industrial facility, approximately 10% of the electricity consumed is for generating compressed air. For some facilities, compressed air generation may account for 30% or more of the electricity consumed. Compressed air is an on-site generated utility. Very often the cost of generation is not known; however, some companies use a value of 15-30 cents per 1000 cubic feet of air.",
+            "page": 1,
+            "chunk": 0,
+            "title": "Determine the Cost of Compressed Air for Your Plant",
+            "source_url": "https://www.energystar.gov/sites/default/files/buildings/tools/compressed_air1.pdf",
+            "path": "data\\documents\\compressed_air_cost.pdf",
+            "publisher": "U.S. Department of Energy",
+            "license": "DOE government information; public-domain notice, retain attribution",
+            "source_sha256": "af4b566e3e6c4280488bdee5fb2d47f418baba5ecf6a4fd22997498cdb59b9cd",
+            "score": 0.030303030303030304,
+            "bm25_score": 2.6443465052769843,
+            "semantic_score": 0.42484742403030396
+          },
+          {
+            "id": "cc8b224c0653b5e7",
+            "document_id": "doe_air_leaks",
+            "text": "systems for industry. You can access these resources and more by visiting the BestPractices Web site at www.eere.energy.gov/industry/bestpractices or by contacting the EERE Information Center at 877-337-3463 or via the Web at www.eere.energy.gov/informationcenter/. savings if these leaks were eliminated. Assume 7,000 annual operating hours, an aggregate electric rate of $0.05 kilowatt-hour (kWh), and compressed air generation requirement of approximately 18 kilowatts (kW)/100 cfm. Cost savings = # of leaks x leakage rate (cfm) x kW/cfm x # of hours x $/kWh Using values of the leakage rates from the above table and assuming sharp-edged orifi ces: Cost savings from 1/32\u201d leaks = 100 x 1.46 x 0.61 x 0.18 x",
+            "page": 2,
+            "chunk": 5,
+            "title": "Minimize Compressed Air Leaks",
+            "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+            "path": "data\\documents\\compressed_air_leaks.pdf",
+            "publisher": "U.S. Department of Energy / NREL",
+            "license": "DOE technical tip sheet; retain attribution and original notices",
+            "source_sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+            "score": 0.029850746268656716,
+            "bm25_score": 2.6010968648097244,
+            "semantic_score": 0.421659380197525
+          },
+          {
+            "id": "8b27031d7d1a62e5",
+            "document_id": "doe_air_cost",
+            "text": "aggregate electric rate is $0.05/kWh. Cost when fully loaded = Cost when partially loaded = Annual energy cost = $48,792 + $2,272 = $51,064 Compressed AirMotorsSteam Suggested Actions \u2022 Determine the cost of compressed air for your plant by periodically monitoring the compressor operating hours and load duty cycle. \u2022 Use a systems approach while operating and maintaining a compressed air system. \u2022 Adopt a plant-wide compressed air management policy to cut costs and reduce waste by eliminating inappropriate uses, fixing leaks, and matching system supply with demand. References Improving Compressed Air System Performance: A Sourcebook for the Industry, Motor Challenge and Compressed Air Challenge, April 1998. T raining \u2022",
+            "page": 1,
+            "chunk": 3,
+            "title": "Determine the Cost of Compressed Air for Your Plant",
+            "source_url": "https://www.energystar.gov/sites/default/files/buildings/tools/compressed_air1.pdf",
+            "path": "data\\documents\\compressed_air_cost.pdf",
+            "publisher": "U.S. Department of Energy",
+            "license": "DOE government information; public-domain notice, retain attribution",
+            "source_sha256": "af4b566e3e6c4280488bdee5fb2d47f418baba5ecf6a4fd22997498cdb59b9cd",
+            "score": 0.02886002886002886,
+            "bm25_score": 3.4719124645552366,
+            "semantic_score": 0.29443490505218506
+          }
+        ],
+        "raw_model_output": "Leak Detection",
+        "supporting_evidence": [
+          {
+            "quote": "\u2022 Once leaks are repaired, re-evaluate your compressed air system supply.",
+            "chunk_id": "3ab955e01d9b3312",
+            "document_id": "doe_air_leaks",
+            "title": "Minimize Compressed Air Leaks",
+            "page": 1,
+            "path": "data\\documents\\compressed_air_leaks.pdf",
+            "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf"
+          },
+          {
+            "quote": "Leak Detection The best way to detect leaks is to use an ultrasonic acoustic detector, which can recognize high frequency hissing sounds associated with air leaks.",
+            "chunk_id": "e50e66d62b9114e3",
+            "document_id": "doe_air_leaks",
+            "title": "Minimize Compressed Air Leaks",
+            "page": 1,
+            "path": "data\\documents\\compressed_air_leaks.pdf",
+            "source_url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf"
+          }
+        ],
+        "answer_mode": "evidence_extract_after_rejected_draft",
+        "latency_ms": 2514.588399993954
+      }
+    }
+  ],
+  "trace": [
+    {
+      "stage": "understand",
+      "router": "bounded keyword policy; explicit dates/constraints supplied structurally"
+    },
+    {
+      "stage": "plan",
+      "tools": [
+        "retrieve_and_answer"
+      ]
+    },
+    {
+      "stage": "investigate"
+    },
+    {
+      "stage": "validate",
+      "valid": true
+    },
+    {
+      "stage": "report"
+    }
+  ],
+  "latency_ms": 2520.8877000113716
+}

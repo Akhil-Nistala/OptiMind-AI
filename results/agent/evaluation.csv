@@ -1,0 +1,13 @@
+id,question,expected_tools,actual_tools,tool_selection_correct,numeric_reference_correct,support_decision_correct,grounding_structure_correct,citation_span_correct,schedule_feasible,unnecessary_tool_calls,latency_ms
+a01,Compare production throughput,compare_periods,compare_periods,True,True,True,True,,,0,78.30040001135785
+a02,Summarize machine utilization and missing downtime,compare_periods,compare_periods,True,True,True,True,,,0,40.0857999920845
+a03,How should compressed air leaks be detected?,retrieve_and_answer,retrieve_and_answer,True,,True,True,True,,0,2520.8877000113716
+a04,Optimize the job schedule,solve_schedule,solve_schedule,True,,True,True,,True,0,114.88639999879524
+a05,Investigate production throughput and recommend a schedule,"compare_periods,retrieve_and_answer,solve_schedule","compare_periods,retrieve_and_answer,solve_schedule",True,True,True,True,True,True,0,1799.7584999975516
+a06,"Compare production, do not schedule",compare_periods,compare_periods,True,True,True,True,,,0,30.96699999878183
+a07,Investigate production for the empty period,"compare_periods,retrieve_and_answer","compare_periods,retrieve_and_answer",True,,True,True,True,,0,1115.9794999985024
+a08,Tell me a joke,,,True,,True,True,,,0,4.335600009653717
+a09,Schedule the jobs,,,True,,True,True,,,0,5.124499992234632
+a10,What is the safe pressure rating of compressor ZX-99?,retrieve_and_answer,retrieve_and_answer,True,,True,True,,,0,36.2604999972973
+a11,Why did production output decline?,"compare_periods,retrieve_and_answer","compare_periods,retrieve_and_answer",True,True,True,True,True,,0,1601.597100001527
+a12,Investigate production and optimize next cycle,"compare_periods,retrieve_and_answer,solve_schedule","compare_periods,retrieve_and_answer,solve_schedule",True,True,True,True,,True,0,59.506499994313344

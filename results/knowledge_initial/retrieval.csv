@@ -1,0 +1,67 @@
+id,question,method,answerable,latency_ms,mrr_at5,recall_at1,hit_at1,recall_at3,hit_at3,recall_at5,hit_at5
+q01,How is production target attainment calculated?,bm25,True,0.3184000088367611,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q01,How is production target attainment calculated?,semantic,True,19.129699998302385,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q01,How is production target attainment calculated?,hybrid,True,17.034899996360764,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q02,How should missing downtime values be treated?,bm25,True,0.5435000057332218,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+q02,How should missing downtime values be treated?,semantic,True,29.37559998827055,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+q02,How should missing downtime values be treated?,hybrid,True,21.359200007282197,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+q03,What does busy utilization measure?,bm25,True,0.1869000116130337,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q03,What does busy utilization measure?,semantic,True,19.147899991367012,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q03,What does busy utilization measure?,hybrid,True,19.27119999891147,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q04,Does more downtime alongside lower production prove a root cause?,bm25,True,0.6794000073568895,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+q04,Does more downtime alongside lower production prove a root cause?,semantic,True,27.467699997941963,0.5,0.0,0.0,1.0,1.0,1.0,1.0
+q04,Does more downtime alongside lower production prove a root cause?,hybrid,True,25.534799991874024,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+q05,What is the scheduling objective?,bm25,True,0.1770999951986596,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q05,What is the scheduling objective?,semantic,True,16.452900003059767,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q05,What is the scheduling objective?,hybrid,True,14.28719999967143,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q06,What does the OPTIMAL solver status mean?,bm25,True,0.308599992422387,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q06,What does the OPTIMAL solver status mean?,semantic,True,37.73120000550989,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q06,What does the OPTIMAL solver status mean?,hybrid,True,22.908200000529177,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q07,What does a FEASIBLE solver status mean?,bm25,True,0.9762999980011955,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q07,What does a FEASIBLE solver status mean?,semantic,True,27.048899995861575,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q07,What does a FEASIBLE solver status mean?,hybrid,True,19.027600006666034,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q08,Are job deadlines hard constraints by default?,bm25,True,0.8491999906254932,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q08,Are job deadlines hard constraints by default?,semantic,True,26.106500008609146,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q08,Are job deadlines hard constraints by default?,hybrid,True,25.97599998989608,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q09,May optimized schedules be executed automatically on machinery?,bm25,True,0.4327000060584396,1.0,0.5,1.0,0.5,1.0,0.5,1.0
+q09,May optimized schedules be executed automatically on machinery?,semantic,True,25.185300008160993,1.0,0.5,1.0,0.5,1.0,1.0,1.0
+q09,May optimized schedules be executed automatically on machinery?,hybrid,True,10.818300012033433,1.0,0.5,1.0,0.5,1.0,0.5,1.0
+q10,What fields are in each production shift record?,bm25,True,0.24739999207668006,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q10,What fields are in each production shift record?,semantic,True,17.532099998788908,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q10,What fields are in each production shift record?,hybrid,True,14.013599997269921,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q11,How long is a scheduled shift in this demonstration?,bm25,True,0.2747999969869852,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+q11,How long is a scheduled shift in this demonstration?,semantic,True,31.08129999600351,1.0,0.5,1.0,0.5,1.0,1.0,1.0
+q11,How long is a scheduled shift in this demonstration?,hybrid,True,22.69979999982752,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+q12,Which machine has deliberately reduced output in the synthetic scenario?,bm25,True,0.7180999964475632,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q12,Which machine has deliberately reduced output in the synthetic scenario?,semantic,True,29.819799994584173,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q12,Which machine has deliberately reduced output in the synthetic scenario?,hybrid,True,14.854900000500493,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q13,Can the language model calculate production metrics or write SQL?,bm25,True,0.33910000638570637,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q13,Can the language model calculate production metrics or write SQL?,semantic,True,17.36489999166224,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q13,Can the language model calculate production metrics or write SQL?,hybrid,True,12.735600001178682,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q14,What should be checked before claiming a root cause?,bm25,True,0.5691999976988882,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0
+q14,What should be checked before claiming a root cause?,semantic,True,28.01920000638347,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0
+q14,What should be checked before claiming a root cause?,hybrid,True,28.88399999937974,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0
+q15,What fraction of compressor output can air leaks waste?,bm25,True,0.6491999956779182,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q15,What fraction of compressor output can air leaks waste?,semantic,True,20.96390000951942,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q15,What fraction of compressor output can air leaks waste?,hybrid,True,24.74719999008812,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q16,What instrument detects compressed air leaks?,bm25,True,0.23020000662654638,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q16,What instrument detects compressed air leaks?,semantic,True,29.707800000323914,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q16,What instrument detects compressed air leaks?,hybrid,True,31.158700003288686,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q17,Which variables determine annual compressed air energy cost?,bm25,True,0.5173999961698428,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q17,Which variables determine annual compressed air energy cost?,semantic,True,27.315699990140274,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q17,Which variables determine annual compressed air energy cost?,hybrid,True,20.855299997492693,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q18,Why is a leak prevention program useful for compressed air?,bm25,True,1.152400000137277,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q18,Why is a leak prevention program useful for compressed air?,semantic,True,36.384600010933354,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+q18,Why is a leak prevention program useful for compressed air?,hybrid,True,30.251999996835366,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+u01,Who won the cricket world championship?,bm25,False,0.6587000098079443,0.0,,,,,,
+u01,Who won the cricket world championship?,semantic,False,20.386399992275983,0.0,,,,,,
+u01,Who won the cricket world championship?,hybrid,False,14.656200000899844,0.0,,,,,,
+u02,What is the safe pressure rating of compressor ZX-99?,bm25,False,0.5786999972769991,0.0,,,,,,
+u02,What is the safe pressure rating of compressor ZX-99?,semantic,False,30.705800003488548,0.0,,,,,,
+u02,What is the safe pressure rating of compressor ZX-99?,hybrid,False,24.525899993022904,0.0,,,,,,
+u03,What was our exact electricity bill yesterday?,bm25,False,0.21009999909438193,0.0,,,,,,
+u03,What was our exact electricity bill yesterday?,semantic,False,16.049199999542907,0.0,,,,,,
+u03,What was our exact electricity bill yesterday?,hybrid,False,18.623800002387725,0.0,,,,,,
+u04,What is the capital of Argentina?,bm25,False,0.13240000407677144,0.0,,,,,,
+u04,What is the capital of Argentina?,semantic,False,14.38330000382848,0.0,,,,,,
+u04,What is the capital of Argentina?,hybrid,False,13.724500007811002,0.0,,,,,,

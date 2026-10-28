@@ -1,0 +1,24 @@
+[
+  {
+    "id": "doe_air_cost",
+    "file": "compressed_air_cost.pdf",
+    "url": "https://www.energystar.gov/sites/default/files/buildings/tools/compressed_air1.pdf",
+    "title": "Determine the Cost of Compressed Air for Your Plant",
+    "publisher": "U.S. Department of Energy",
+    "license": "DOE government information; public-domain notice, retain attribution",
+    "path": "data\\documents\\compressed_air_cost.pdf",
+    "sha256": "af4b566e3e6c4280488bdee5fb2d47f418baba5ecf6a4fd22997498cdb59b9cd",
+    "bytes": 582848
+  },
+  {
+    "id": "doe_air_leaks",
+    "file": "compressed_air_leaks.pdf",
+    "url": "https://www.energy.gov/sites/prod/files/2014/05/f16/compressed_air3.pdf",
+    "title": "Minimize Compressed Air Leaks",
+    "publisher": "U.S. Department of Energy / NREL",
+    "license": "DOE technical tip sheet; retain attribution and original notices",
+    "path": "data\\documents\\compressed_air_leaks.pdf",
+    "sha256": "2d5c173c054d0fb1187a0944a5815f39afa44bde6d392ad55c9667ff2aa20017",
+    "bytes": 270691
+  }
+]

@@ -1,0 +1,29 @@
+instance,source,jobs,machines,operations,method,status,proven_optimal,makespan,weighted_tardiness,violations,runtime_seconds,solver_bound,gap_to_proven_optimum,relative_bound_gap
+google_public_3x3,https://developers.google.com/optimization/scheduling/job_shop,3,3,8,greedy,GREEDY_FEASIBLE,False,12,0,0,0.0007590000022901222,11.0,0.09090909090909091,0.08333333333333333
+google_public_3x3,https://developers.google.com/optimization/scheduling/job_shop,3,3,8,cp_sat,OPTIMAL,True,11,0,0,0.012579900008859113,11.0,0.0,0.0
+ft06,https://github.com/google/or-tools/blob/stable/examples/python/jobshop_ft06_sat.py,6,6,36,greedy,GREEDY_FEASIBLE,False,88,0,0,0.0049079000018537045,55.0,0.6,0.375
+ft06,https://github.com/google/or-tools/blob/stable/examples/python/jobshop_ft06_sat.py,6,6,36,cp_sat,OPTIMAL,True,55,0,0,0.017862599997897632,55.0,0.0,0.0
+synthetic_4x3_42,seeded synthetic,4,3,12,greedy,GREEDY_FEASIBLE,False,44,25,0,0.000818300002720207,39.0,0.1282051282051282,0.11363636363636363
+synthetic_4x3_42,seeded synthetic,4,3,12,cp_sat,OPTIMAL,True,39,14,0,0.005728999996790662,39.0,0.0,0.0
+synthetic_4x3_43,seeded synthetic,4,3,12,greedy,GREEDY_FEASIBLE,False,43,4,0,0.0008108999900287017,39.0,0.10256410256410256,0.09302325581395349
+synthetic_4x3_43,seeded synthetic,4,3,12,cp_sat,OPTIMAL,True,39,17,0,0.005066500001703389,39.0,0.0,0.0
+synthetic_4x3_44,seeded synthetic,4,3,12,greedy,GREEDY_FEASIBLE,False,55,32,0,0.001121300010709092,49.0,0.12244897959183673,0.10909090909090909
+synthetic_4x3_44,seeded synthetic,4,3,12,cp_sat,OPTIMAL,True,49,53,0,0.010589199999230914,49.0,0.0,0.0
+synthetic_8x4_42,seeded synthetic,8,4,32,greedy,GREEDY_FEASIBLE,False,95,338,0,0.010166299995034933,68.0,,0.28421052631578947
+synthetic_8x4_42,seeded synthetic,8,4,32,cp_sat,FEASIBLE,False,76,359,0,2.0031218999938574,68.0,,0.10526315789473684
+synthetic_8x4_43,seeded synthetic,8,4,32,greedy,GREEDY_FEASIBLE,False,77,289,0,0.00954289999208413,63.0,,0.18181818181818182
+synthetic_8x4_43,seeded synthetic,8,4,32,cp_sat,FEASIBLE,False,71,352,0,2.0034394999966025,63.0,,0.11267605633802817
+synthetic_8x4_44,seeded synthetic,8,4,32,greedy,GREEDY_FEASIBLE,False,87,319,0,0.006494899993413128,74.0,,0.14942528735632185
+synthetic_8x4_44,seeded synthetic,8,4,32,cp_sat,FEASIBLE,False,77,242,0,2.004126300002099,74.0,,0.03896103896103896
+synthetic_12x5_42,seeded synthetic,12,5,60,greedy,GREEDY_FEASIBLE,False,118,801,0,0.026554600000963546,95.0,,0.19491525423728814
+synthetic_12x5_42,seeded synthetic,12,5,60,cp_sat,FEASIBLE,False,105,1013,0,2.008734099988942,95.0,,0.09523809523809523
+synthetic_12x5_43,seeded synthetic,12,5,60,greedy,GREEDY_FEASIBLE,False,140,951,0,0.060911799999303184,103.0,0.3592233009708738,0.2642857142857143
+synthetic_12x5_43,seeded synthetic,12,5,60,cp_sat,OPTIMAL,True,103,761,0,0.06624489999376237,103.0,0.0,0.0
+synthetic_12x5_44,seeded synthetic,12,5,60,greedy,GREEDY_FEASIBLE,False,110,816,0,0.05246920000354294,102.0,0.0784313725490196,0.07272727272727272
+synthetic_12x5_44,seeded synthetic,12,5,60,cp_sat,OPTIMAL,True,102,1032,0,0.05277159999241121,102.0,0.0,0.0
+synthetic_20x6_42,seeded synthetic,20,6,120,greedy,GREEDY_FEASIBLE,False,194,2702,0,0.2966529000113951,158.0,,0.18556701030927836
+synthetic_20x6_42,seeded synthetic,20,6,120,cp_sat,FEASIBLE,False,165,2820,0,2.020128099989961,158.0,,0.04242424242424243
+synthetic_20x6_43,seeded synthetic,20,6,120,greedy,GREEDY_FEASIBLE,False,209,2759,0,0.22173869999824092,168.0,,0.19617224880382775
+synthetic_20x6_43,seeded synthetic,20,6,120,cp_sat,FEASIBLE,False,178,3049,0,2.0368003000039607,168.0,,0.056179775280898875
+synthetic_20x6_44,seeded synthetic,20,6,120,greedy,GREEDY_FEASIBLE,False,194,2410,0,0.25802049999765586,159.0,,0.18041237113402062
+synthetic_20x6_44,seeded synthetic,20,6,120,cp_sat,FEASIBLE,False,168,2467,0,2.012388400005875,159.0,,0.05357142857142857

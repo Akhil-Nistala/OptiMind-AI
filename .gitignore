@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+models/
+data/*.sqlite*
+data/index/
+*.zip
+data/documents/*.pdf

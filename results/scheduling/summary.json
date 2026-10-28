@@ -1,0 +1,45 @@
+{
+  "instances": 14,
+  "feasible_schedules": 28,
+  "total_constraint_violations": 0,
+  "solver_optimal_count": 7,
+  "mean_makespan_reduction_percent": 14.61401043258236,
+  "public_example_optimum": 11,
+  "config": {
+    "seed": 42,
+    "solver_seconds": 2.0,
+    "benchmark_sizes": [
+      [
+        4,
+        3
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        12,
+        5
+      ],
+      [
+        20,
+        6
+      ]
+    ],
+    "seeds_per_size": 3,
+    "retrieval_k": [
+      1,
+      3,
+      5
+    ],
+    "evidence_min_similarity": 0.3,
+    "default_previous": [
+      "2026-10-05",
+      "2026-10-11"
+    ],
+    "default_current": [
+      "2026-10-12",
+      "2026-10-18"
+    ]
+  }
+}

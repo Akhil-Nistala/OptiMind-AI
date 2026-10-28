@@ -1,0 +1,7 @@
+Synthetic production dataset dictionary.
+
+Each record represents one machine on one date, a single eight-hour shift. production_date is an ISO date. job_id and machine_id identify the scheduled work. planned_minutes is planned busy processing time. actual_minutes is observed busy processing time. completed_quantity is the good-unit output in the scenario. downtime_minutes is separately logged lost shift time. production_target is the planned good-unit target. scheduled_minutes is 480 for every record. All durations are minutes.
+
+The first comparison period is 2026-10-05 through 2026-10-11 inclusive. The current comparison period is 2026-10-12 through 2026-10-18 inclusive. Each has seven dates and three machines. The scenario deliberately reduces machine M1 output and increases its downtime in the second period. This generator-controlled relation is a test fixture, not discovered evidence of a real failure or a causal estimate. One M2 downtime record is intentionally missing in the second period.
+
+Records should have unique machine/date pairs. Negative quantities, negative durations, processing plus downtime above the scheduled duration, or duplicate machine/date records are contradictions and should block confident reporting. Null downtime must be reported explicitly. A root cause requires external corroboration, which this database does not contain.

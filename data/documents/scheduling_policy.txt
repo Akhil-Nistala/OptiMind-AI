@@ -1,0 +1,9 @@
+Demonstration scheduling policy. Authored scenario policy, not a plant control specification.
+
+Every job has an ordered route of machine operations. Each operation occupies its assigned machine for a positive integer duration and cannot be interrupted. Finish a job operation before beginning its successor. A machine handles at most one operation at a time. Total simultaneous operator demand must not exceed crew capacity.
+
+The scheduling objective is minimum makespan: the latest job completion time. Earliest due-date tie breaking is used only in the greedy dispatch baseline; it does not guarantee a global optimum. Job deadlines are soft by default, with weighted tardiness reported as a diagnostic. Set hard_deadline true to require completion by the specified deadline. Release times, machine availability and planned machine blackouts are mandatory constraints.
+
+A CP-SAT status OPTIMAL means an optimum was proved for the modeled instance. FEASIBLE means a valid incumbent exists but optimality was not proved. INFEASIBLE means the modeled constraints were proved inconsistent. UNKNOWN means no conclusion was reached before the limit. A failed heuristic does not prove that the original problem is infeasible.
+
+All schedules are proposals for human review. Do not send an optimized plan to plant machinery automatically. Review duration estimates, maintenance windows, material readiness and operator qualifications before execution. The prototype models a fixed route, machine exclusivity and a shared crew pool; it does not model sequence-dependent setup, material inventory or stochastic breakdowns.

@@ -1,0 +1,106 @@
+{
+  "machines": 3,
+  "jobs": [
+    {
+      "id": "A",
+      "operations": [
+        {
+          "machine": 0,
+          "duration": 8,
+          "crew": 1
+        },
+        {
+          "machine": 1,
+          "duration": 5,
+          "crew": 1
+        },
+        {
+          "machine": 2,
+          "duration": 4,
+          "crew": 1
+        }
+      ],
+      "release": 0,
+      "deadline": 22,
+      "weight": 1,
+      "hard_deadline": false
+    },
+    {
+      "id": "B",
+      "operations": [
+        {
+          "machine": 1,
+          "duration": 6,
+          "crew": 1
+        },
+        {
+          "machine": 0,
+          "duration": 7,
+          "crew": 1
+        },
+        {
+          "machine": 2,
+          "duration": 3,
+          "crew": 1
+        }
+      ],
+      "release": 0,
+      "deadline": 21,
+      "weight": 2,
+      "hard_deadline": false
+    },
+    {
+      "id": "C",
+      "operations": [
+        {
+          "machine": 2,
+          "duration": 5,
+          "crew": 1
+        },
+        {
+          "machine": 1,
+          "duration": 7,
+          "crew": 1
+        }
+      ],
+      "release": 2,
+      "deadline": 20,
+      "weight": 1,
+      "hard_deadline": false
+    },
+    {
+      "id": "D",
+      "operations": [
+        {
+          "machine": 0,
+          "duration": 4,
+          "crew": 1
+        },
+        {
+          "machine": 2,
+          "duration": 8,
+          "crew": 1
+        }
+      ],
+      "release": 0,
+      "deadline": 19,
+      "weight": 1,
+      "hard_deadline": false
+    }
+  ],
+  "crew_capacity": 2,
+  "available_from": {
+    "1": 2
+  },
+  "blackouts": {
+    "0": [
+      [
+        12,
+        16
+      ]
+    ]
+  },
+  "horizon_limit": null,
+  "name": "next_cycle_demo",
+  "source": "authored synthetic"
+}

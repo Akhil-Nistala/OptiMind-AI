@@ -1,0 +1,342 @@
+{
+  "question": "Optimize the job schedule",
+  "plan": [
+    "solve_schedule"
+  ],
+  "observations": [],
+  "metrics": {},
+  "document_evidence": null,
+  "hypotheses": [],
+  "recommended_actions": [
+    "Review the feasible proposed schedule with an authorized operator before execution."
+  ],
+  "schedule_proposal": {
+    "status": "OPTIMAL",
+    "schedule": [
+      {
+        "job": "A",
+        "operation": 0,
+        "machine": 0,
+        "start": 4,
+        "end": 12,
+        "crew": 1
+      },
+      {
+        "job": "A",
+        "operation": 1,
+        "machine": 1,
+        "start": 12,
+        "end": 17,
+        "crew": 1
+      },
+      {
+        "job": "A",
+        "operation": 2,
+        "machine": 2,
+        "start": 22,
+        "end": 26,
+        "crew": 1
+      },
+      {
+        "job": "B",
+        "operation": 0,
+        "machine": 1,
+        "start": 2,
+        "end": 8,
+        "crew": 1
+      },
+      {
+        "job": "B",
+        "operation": 1,
+        "machine": 0,
+        "start": 16,
+        "end": 23,
+        "crew": 1
+      },
+      {
+        "job": "B",
+        "operation": 2,
+        "machine": 2,
+        "start": 26,
+        "end": 29,
+        "crew": 1
+      },
+      {
+        "job": "C",
+        "operation": 0,
+        "machine": 2,
+        "start": 17,
+        "end": 22,
+        "crew": 1
+      },
+      {
+        "job": "C",
+        "operation": 1,
+        "machine": 1,
+        "start": 23,
+        "end": 30,
+        "crew": 1
+      },
+      {
+        "job": "D",
+        "operation": 0,
+        "machine": 0,
+        "start": 0,
+        "end": 4,
+        "crew": 1
+      },
+      {
+        "job": "D",
+        "operation": 1,
+        "machine": 2,
+        "start": 8,
+        "end": 16,
+        "crew": 1
+      }
+    ],
+    "proven_optimal": true,
+    "runtime_seconds": 0.10586680000415072,
+    "bound": 30.0,
+    "time_limit_seconds": 5,
+    "makespan": 30,
+    "weighted_tardiness": 30,
+    "constraint_violations": 0,
+    "relative_bound_gap": 0.0
+  },
+  "human_review_required": true,
+  "limitations": [],
+  "supported": true,
+  "tool_calls": [
+    {
+      "tool": "solve_schedule",
+      "inputs": {
+        "machines": 3,
+        "jobs": [
+          {
+            "id": "A",
+            "operations": [
+              {
+                "machine": 0,
+                "duration": 8,
+                "crew": 1
+              },
+              {
+                "machine": 1,
+                "duration": 5,
+                "crew": 1
+              },
+              {
+                "machine": 2,
+                "duration": 4,
+                "crew": 1
+              }
+            ],
+            "release": 0,
+            "deadline": 22,
+            "weight": 1,
+            "hard_deadline": false
+          },
+          {
+            "id": "B",
+            "operations": [
+              {
+                "machine": 1,
+                "duration": 6,
+                "crew": 1
+              },
+              {
+                "machine": 0,
+                "duration": 7,
+                "crew": 1
+              },
+              {
+                "machine": 2,
+                "duration": 3,
+                "crew": 1
+              }
+            ],
+            "release": 0,
+            "deadline": 21,
+            "weight": 2,
+            "hard_deadline": false
+          },
+          {
+            "id": "C",
+            "operations": [
+              {
+                "machine": 2,
+                "duration": 5,
+                "crew": 1
+              },
+              {
+                "machine": 1,
+                "duration": 7,
+                "crew": 1
+              }
+            ],
+            "release": 2,
+            "deadline": 20,
+            "weight": 1,
+            "hard_deadline": false
+          },
+          {
+            "id": "D",
+            "operations": [
+              {
+                "machine": 0,
+                "duration": 4,
+                "crew": 1
+              },
+              {
+                "machine": 2,
+                "duration": 8,
+                "crew": 1
+              }
+            ],
+            "release": 0,
+            "deadline": 19,
+            "weight": 1,
+            "hard_deadline": false
+          }
+        ],
+        "crew_capacity": 2,
+        "available_from": {
+          "1": 2
+        },
+        "blackouts": {
+          "0": [
+            [
+              12,
+              16
+            ]
+          ]
+        },
+        "horizon_limit": null,
+        "name": "next_cycle_demo",
+        "source": "authored synthetic"
+      },
+      "status": "ok",
+      "milliseconds": 106.95910001231823,
+      "output": {
+        "status": "OPTIMAL",
+        "schedule": [
+          {
+            "job": "A",
+            "operation": 0,
+            "machine": 0,
+            "start": 4,
+            "end": 12,
+            "crew": 1
+          },
+          {
+            "job": "A",
+            "operation": 1,
+            "machine": 1,
+            "start": 12,
+            "end": 17,
+            "crew": 1
+          },
+          {
+            "job": "A",
+            "operation": 2,
+            "machine": 2,
+            "start": 22,
+            "end": 26,
+            "crew": 1
+          },
+          {
+            "job": "B",
+            "operation": 0,
+            "machine": 1,
+            "start": 2,
+            "end": 8,
+            "crew": 1
+          },
+          {
+            "job": "B",
+            "operation": 1,
+            "machine": 0,
+            "start": 16,
+            "end": 23,
+            "crew": 1
+          },
+          {
+            "job": "B",
+            "operation": 2,
+            "machine": 2,
+            "start": 26,
+            "end": 29,
+            "crew": 1
+          },
+          {
+            "job": "C",
+            "operation": 0,
+            "machine": 2,
+            "start": 17,
+            "end": 22,
+            "crew": 1
+          },
+          {
+            "job": "C",
+            "operation": 1,
+            "machine": 1,
+            "start": 23,
+            "end": 30,
+            "crew": 1
+          },
+          {
+            "job": "D",
+            "operation": 0,
+            "machine": 0,
+            "start": 0,
+            "end": 4,
+            "crew": 1
+          },
+          {
+            "job": "D",
+            "operation": 1,
+            "machine": 2,
+            "start": 8,
+            "end": 16,
+            "crew": 1
+          }
+        ],
+        "proven_optimal": true,
+        "runtime_seconds": 0.10586680000415072,
+        "bound": 30.0,
+        "time_limit_seconds": 5,
+        "makespan": 30,
+        "weighted_tardiness": 30,
+        "constraint_violations": 0,
+        "relative_bound_gap": 0.0
+      }
+    }
+  ],
+  "trace": [
+    {
+      "stage": "understand",
+      "router": "bounded keyword policy; explicit dates/constraints supplied structurally"
+    },
+    {
+      "stage": "plan",
+      "tools": [
+        "solve_schedule"
+      ]
+    },
+    {
+      "stage": "investigate"
+    },
+    {
+      "stage": "validate",
+      "valid": true
+    },
+    {
+      "stage": "optimize",
+      "human_review_required": true
+    },
+    {
+      "stage": "report"
+    }
+  ],
+  "latency_ms": 114.88639999879524
+}

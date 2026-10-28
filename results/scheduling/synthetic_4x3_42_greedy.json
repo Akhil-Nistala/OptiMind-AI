@@ -1,0 +1,106 @@
+{
+  "status": "GREEDY_FEASIBLE",
+  "schedule": [
+    {
+      "job": "J2",
+      "operation": 0,
+      "machine": 0,
+      "start": 0,
+      "end": 9,
+      "crew": 1
+    },
+    {
+      "job": "J0",
+      "operation": 0,
+      "machine": 2,
+      "start": 4,
+      "end": 12,
+      "crew": 1
+    },
+    {
+      "job": "J0",
+      "operation": 1,
+      "machine": 1,
+      "start": 12,
+      "end": 18,
+      "crew": 1
+    },
+    {
+      "job": "J1",
+      "operation": 0,
+      "machine": 2,
+      "start": 12,
+      "end": 16,
+      "crew": 1
+    },
+    {
+      "job": "J1",
+      "operation": 1,
+      "machine": 0,
+      "start": 16,
+      "end": 18,
+      "crew": 1
+    },
+    {
+      "job": "J0",
+      "operation": 2,
+      "machine": 0,
+      "start": 18,
+      "end": 24,
+      "crew": 1
+    },
+    {
+      "job": "J1",
+      "operation": 2,
+      "machine": 1,
+      "start": 18,
+      "end": 25,
+      "crew": 1
+    },
+    {
+      "job": "J2",
+      "operation": 1,
+      "machine": 2,
+      "start": 24,
+      "end": 33,
+      "crew": 1
+    },
+    {
+      "job": "J3",
+      "operation": 0,
+      "machine": 0,
+      "start": 25,
+      "end": 32,
+      "crew": 1
+    },
+    {
+      "job": "J3",
+      "operation": 1,
+      "machine": 1,
+      "start": 32,
+      "end": 37,
+      "crew": 1
+    },
+    {
+      "job": "J2",
+      "operation": 2,
+      "machine": 1,
+      "start": 37,
+      "end": 44,
+      "crew": 1
+    },
+    {
+      "job": "J3",
+      "operation": 2,
+      "machine": 2,
+      "start": 37,
+      "end": 40,
+      "crew": 1
+    }
+  ],
+  "makespan": 44,
+  "weighted_tardiness": 25,
+  "constraint_violations": 0,
+  "runtime_seconds": 0.000818300002720207,
+  "proven_optimal": false
+}

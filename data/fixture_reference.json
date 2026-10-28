@@ -1,0 +1,483 @@
+{
+  "synthetic": true,
+  "seed": 42,
+  "reference": {
+    "previous": {
+      "quantity": 2101,
+      "known_downtime": 643,
+      "missing_downtime": 0,
+      "target": 2100
+    },
+    "current": {
+      "quantity": 1918,
+      "known_downtime": 1236,
+      "missing_downtime": 1,
+      "target": 2100
+    },
+    "delta_quantity": -183
+  },
+  "records": [
+    {
+      "production_date": "2026-10-05",
+      "job_id": "JOB-00-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 392,
+      "completed_quantity": 101,
+      "downtime_minutes": 25,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-05",
+      "job_id": "JOB-00-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 396,
+      "completed_quantity": 103,
+      "downtime_minutes": 29,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-05",
+      "job_id": "JOB-00-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 393,
+      "completed_quantity": 97,
+      "downtime_minutes": 25,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-06",
+      "job_id": "JOB-01-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 395,
+      "completed_quantity": 104,
+      "downtime_minutes": 26,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-06",
+      "job_id": "JOB-01-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 392,
+      "completed_quantity": 102,
+      "downtime_minutes": 33,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-06",
+      "job_id": "JOB-01-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 395,
+      "completed_quantity": 97,
+      "downtime_minutes": 33,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-07",
+      "job_id": "JOB-02-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 396,
+      "completed_quantity": 100,
+      "downtime_minutes": 34,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-07",
+      "job_id": "JOB-02-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 398,
+      "completed_quantity": 104,
+      "downtime_minutes": 29,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-07",
+      "job_id": "JOB-02-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 393,
+      "completed_quantity": 99,
+      "downtime_minutes": 33,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-08",
+      "job_id": "JOB-03-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 395,
+      "completed_quantity": 99,
+      "downtime_minutes": 34,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-08",
+      "job_id": "JOB-03-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 398,
+      "completed_quantity": 96,
+      "downtime_minutes": 29,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-08",
+      "job_id": "JOB-03-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 391,
+      "completed_quantity": 96,
+      "downtime_minutes": 31,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-09",
+      "job_id": "JOB-04-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 391,
+      "completed_quantity": 98,
+      "downtime_minutes": 34,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-09",
+      "job_id": "JOB-04-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 399,
+      "completed_quantity": 102,
+      "downtime_minutes": 31,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-09",
+      "job_id": "JOB-04-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 397,
+      "completed_quantity": 96,
+      "downtime_minutes": 32,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-10",
+      "job_id": "JOB-05-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 396,
+      "completed_quantity": 104,
+      "downtime_minutes": 35,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-10",
+      "job_id": "JOB-05-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 392,
+      "completed_quantity": 102,
+      "downtime_minutes": 32,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-10",
+      "job_id": "JOB-05-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 396,
+      "completed_quantity": 100,
+      "downtime_minutes": 27,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-11",
+      "job_id": "JOB-06-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 400,
+      "completed_quantity": 100,
+      "downtime_minutes": 30,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-11",
+      "job_id": "JOB-06-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 392,
+      "completed_quantity": 102,
+      "downtime_minutes": 26,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-11",
+      "job_id": "JOB-06-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 392,
+      "completed_quantity": 99,
+      "downtime_minutes": 35,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-12",
+      "job_id": "JOB-07-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 396,
+      "completed_quantity": 98,
+      "downtime_minutes": 35,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-12",
+      "job_id": "JOB-07-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 321,
+      "completed_quantity": 71,
+      "downtime_minutes": 124,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-12",
+      "job_id": "JOB-07-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 392,
+      "completed_quantity": 97,
+      "downtime_minutes": 30,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-13",
+      "job_id": "JOB-08-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 399,
+      "completed_quantity": 102,
+      "downtime_minutes": 30,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-13",
+      "job_id": "JOB-08-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 322,
+      "completed_quantity": 73,
+      "downtime_minutes": 120,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-13",
+      "job_id": "JOB-08-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 393,
+      "completed_quantity": 104,
+      "downtime_minutes": 31,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-14",
+      "job_id": "JOB-09-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 399,
+      "completed_quantity": 103,
+      "downtime_minutes": 29,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-14",
+      "job_id": "JOB-09-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 318,
+      "completed_quantity": 71,
+      "downtime_minutes": 121,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-14",
+      "job_id": "JOB-09-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 392,
+      "completed_quantity": 103,
+      "downtime_minutes": 28,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-15",
+      "job_id": "JOB-10-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 392,
+      "completed_quantity": 103,
+      "downtime_minutes": 29,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-15",
+      "job_id": "JOB-10-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 316,
+      "completed_quantity": 73,
+      "downtime_minutes": 119,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-15",
+      "job_id": "JOB-10-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 393,
+      "completed_quantity": 101,
+      "downtime_minutes": null,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-16",
+      "job_id": "JOB-11-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 391,
+      "completed_quantity": 97,
+      "downtime_minutes": 26,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-16",
+      "job_id": "JOB-11-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 325,
+      "completed_quantity": 78,
+      "downtime_minutes": 123,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-16",
+      "job_id": "JOB-11-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 392,
+      "completed_quantity": 101,
+      "downtime_minutes": 33,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-17",
+      "job_id": "JOB-12-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 393,
+      "completed_quantity": 98,
+      "downtime_minutes": 30,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-17",
+      "job_id": "JOB-12-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 319,
+      "completed_quantity": 75,
+      "downtime_minutes": 123,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-17",
+      "job_id": "JOB-12-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 394,
+      "completed_quantity": 96,
+      "downtime_minutes": 30,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-18",
+      "job_id": "JOB-13-0",
+      "machine_id": "M0",
+      "planned_minutes": 400,
+      "actual_minutes": 398,
+      "completed_quantity": 97,
+      "downtime_minutes": 26,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-18",
+      "job_id": "JOB-13-1",
+      "machine_id": "M1",
+      "planned_minutes": 400,
+      "actual_minutes": 318,
+      "completed_quantity": 76,
+      "downtime_minutes": 119,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    },
+    {
+      "production_date": "2026-10-18",
+      "job_id": "JOB-13-2",
+      "machine_id": "M2",
+      "planned_minutes": 400,
+      "actual_minutes": 391,
+      "completed_quantity": 101,
+      "downtime_minutes": 30,
+      "production_target": 100,
+      "scheduled_minutes": 480
+    }
+  ]
+}

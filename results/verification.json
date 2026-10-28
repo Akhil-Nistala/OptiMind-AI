@@ -1,0 +1,8 @@
+{
+  "command": "python -m pytest -q --junitxml=results/pytest.xml",
+  "tests": 31,
+  "failures": 0,
+  "reported_suite_seconds": 29.717,
+  "date": "2026-10-28",
+  "note": "Real local models and prepared fixtures were present for UI integration; see XML. Upstream pending-deprecation warning is retained."
+}

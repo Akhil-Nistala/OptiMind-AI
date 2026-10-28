@@ -1,0 +1,330 @@
+{
+  "question": "Compare production, do not schedule",
+  "plan": [
+    "compare_periods"
+  ],
+  "observations": [
+    {
+      "claim": "Completed quantities changed between equal-length periods",
+      "previous": 2101,
+      "current": 1918,
+      "delta": -183,
+      "percentage_change": -8.710138029509757,
+      "evidence": "compare_periods output"
+    },
+    {
+      "claim": "Known downtime and missingness",
+      "previous_known_minutes": 643.0,
+      "current_known_minutes": 1236.0,
+      "complete": false,
+      "evidence": "compare_periods output"
+    }
+  ],
+  "metrics": {
+    "previous": {
+      "sufficient": true,
+      "period": {
+        "start": "2026-10-05",
+        "end": "2026-10-11"
+      },
+      "rows": 21,
+      "quantity": 2101,
+      "target": 2100,
+      "target_attainment": 1.0004761904761905,
+      "throughput_units_per_scheduled_minute": 0.2084325396825397,
+      "known_downtime_minutes": 643.0,
+      "downtime_total_complete": true,
+      "missing_values": {
+        "planned_minutes": 0,
+        "actual_minutes": 0,
+        "completed_quantity": 0,
+        "downtime_minutes": 0,
+        "production_target": 0,
+        "scheduled_minutes": 0
+      },
+      "per_machine": [
+        {
+          "machine": "M0",
+          "quantity": 706,
+          "known_downtime_minutes": 218.0,
+          "missing_downtime": 0,
+          "busy_utilization": 0.8229166666666666,
+          "planned_minutes": 2800.0,
+          "actual_minutes": 2765.0
+        },
+        {
+          "machine": "M1",
+          "quantity": 711,
+          "known_downtime_minutes": 209.0,
+          "missing_downtime": 0,
+          "busy_utilization": 0.8235119047619047,
+          "planned_minutes": 2800.0,
+          "actual_minutes": 2767.0
+        },
+        {
+          "machine": "M2",
+          "quantity": 684,
+          "known_downtime_minutes": 216.0,
+          "missing_downtime": 0,
+          "busy_utilization": 0.8205357142857143,
+          "planned_minutes": 2800.0,
+          "actual_minutes": 2757.0
+        }
+      ]
+    },
+    "current": {
+      "sufficient": true,
+      "period": {
+        "start": "2026-10-12",
+        "end": "2026-10-18"
+      },
+      "rows": 21,
+      "quantity": 1918,
+      "target": 2100,
+      "target_attainment": 0.9133333333333333,
+      "throughput_units_per_scheduled_minute": 0.19027777777777777,
+      "known_downtime_minutes": 1236.0,
+      "downtime_total_complete": false,
+      "missing_values": {
+        "planned_minutes": 0,
+        "actual_minutes": 0,
+        "completed_quantity": 0,
+        "downtime_minutes": 1,
+        "production_target": 0,
+        "scheduled_minutes": 0
+      },
+      "per_machine": [
+        {
+          "machine": "M0",
+          "quantity": 698,
+          "known_downtime_minutes": 205.0,
+          "missing_downtime": 0,
+          "busy_utilization": 0.8238095238095238,
+          "planned_minutes": 2800.0,
+          "actual_minutes": 2768.0
+        },
+        {
+          "machine": "M1",
+          "quantity": 517,
+          "known_downtime_minutes": 849.0,
+          "missing_downtime": 0,
+          "busy_utilization": 0.6663690476190476,
+          "planned_minutes": 2800.0,
+          "actual_minutes": 2239.0
+        },
+        {
+          "machine": "M2",
+          "quantity": 703,
+          "known_downtime_minutes": 182.0,
+          "missing_downtime": 1,
+          "busy_utilization": 0.8175595238095238,
+          "planned_minutes": 2800.0,
+          "actual_minutes": 2747.0
+        }
+      ]
+    },
+    "sufficient": true,
+    "delta_quantity": -183,
+    "percentage_change": -8.710138029509757,
+    "known_downtime_delta": 593.0,
+    "downtime_comparison_complete": false,
+    "machine_changes": [
+      {
+        "machine": "M0",
+        "quantity_delta": -8,
+        "known_downtime_delta": -13.0
+      },
+      {
+        "machine": "M1",
+        "quantity_delta": -194,
+        "known_downtime_delta": 640.0
+      },
+      {
+        "machine": "M2",
+        "quantity_delta": 19,
+        "known_downtime_delta": -34.0
+      }
+    ]
+  },
+  "document_evidence": null,
+  "hypotheses": [
+    "Logged downtime and output changes may be related; this association does not establish a cause."
+  ],
+  "recommended_actions": [
+    "Prioritize review of the largest machine-level output decline; confirm against alarm and maintenance records."
+  ],
+  "schedule_proposal": null,
+  "human_review_required": false,
+  "limitations": [
+    "Downtime is incomplete: sums include known records only; missing is not zero",
+    "Production records are synthetic fixtures, not real plant observations. No causal or real-world performance claim is justified."
+  ],
+  "supported": true,
+  "tool_calls": [
+    {
+      "tool": "compare_periods",
+      "inputs": {
+        "previous": [
+          "2026-10-05",
+          "2026-10-11"
+        ],
+        "current": [
+          "2026-10-12",
+          "2026-10-18"
+        ],
+        "database": "data/production.sqlite"
+      },
+      "status": "ok",
+      "milliseconds": 27.34950000012759,
+      "output": {
+        "previous": {
+          "sufficient": true,
+          "period": {
+            "start": "2026-10-05",
+            "end": "2026-10-11"
+          },
+          "rows": 21,
+          "quantity": 2101,
+          "target": 2100,
+          "target_attainment": 1.0004761904761905,
+          "throughput_units_per_scheduled_minute": 0.2084325396825397,
+          "known_downtime_minutes": 643.0,
+          "downtime_total_complete": true,
+          "missing_values": {
+            "planned_minutes": 0,
+            "actual_minutes": 0,
+            "completed_quantity": 0,
+            "downtime_minutes": 0,
+            "production_target": 0,
+            "scheduled_minutes": 0
+          },
+          "per_machine": [
+            {
+              "machine": "M0",
+              "quantity": 706,
+              "known_downtime_minutes": 218.0,
+              "missing_downtime": 0,
+              "busy_utilization": 0.8229166666666666,
+              "planned_minutes": 2800.0,
+              "actual_minutes": 2765.0
+            },
+            {
+              "machine": "M1",
+              "quantity": 711,
+              "known_downtime_minutes": 209.0,
+              "missing_downtime": 0,
+              "busy_utilization": 0.8235119047619047,
+              "planned_minutes": 2800.0,
+              "actual_minutes": 2767.0
+            },
+            {
+              "machine": "M2",
+              "quantity": 684,
+              "known_downtime_minutes": 216.0,
+              "missing_downtime": 0,
+              "busy_utilization": 0.8205357142857143,
+              "planned_minutes": 2800.0,
+              "actual_minutes": 2757.0
+            }
+          ]
+        },
+        "current": {
+          "sufficient": true,
+          "period": {
+            "start": "2026-10-12",
+            "end": "2026-10-18"
+          },
+          "rows": 21,
+          "quantity": 1918,
+          "target": 2100,
+          "target_attainment": 0.9133333333333333,
+          "throughput_units_per_scheduled_minute": 0.19027777777777777,
+          "known_downtime_minutes": 1236.0,
+          "downtime_total_complete": false,
+          "missing_values": {
+            "planned_minutes": 0,
+            "actual_minutes": 0,
+            "completed_quantity": 0,
+            "downtime_minutes": 1,
+            "production_target": 0,
+            "scheduled_minutes": 0
+          },
+          "per_machine": [
+            {
+              "machine": "M0",
+              "quantity": 698,
+              "known_downtime_minutes": 205.0,
+              "missing_downtime": 0,
+              "busy_utilization": 0.8238095238095238,
+              "planned_minutes": 2800.0,
+              "actual_minutes": 2768.0
+            },
+            {
+              "machine": "M1",
+              "quantity": 517,
+              "known_downtime_minutes": 849.0,
+              "missing_downtime": 0,
+              "busy_utilization": 0.6663690476190476,
+              "planned_minutes": 2800.0,
+              "actual_minutes": 2239.0
+            },
+            {
+              "machine": "M2",
+              "quantity": 703,
+              "known_downtime_minutes": 182.0,
+              "missing_downtime": 1,
+              "busy_utilization": 0.8175595238095238,
+              "planned_minutes": 2800.0,
+              "actual_minutes": 2747.0
+            }
+          ]
+        },
+        "sufficient": true,
+        "delta_quantity": -183,
+        "percentage_change": -8.710138029509757,
+        "known_downtime_delta": 593.0,
+        "downtime_comparison_complete": false,
+        "machine_changes": [
+          {
+            "machine": "M0",
+            "quantity_delta": -8,
+            "known_downtime_delta": -13.0
+          },
+          {
+            "machine": "M1",
+            "quantity_delta": -194,
+            "known_downtime_delta": 640.0
+          },
+          {
+            "machine": "M2",
+            "quantity_delta": 19,
+            "known_downtime_delta": -34.0
+          }
+        ]
+      }
+    }
+  ],
+  "trace": [
+    {
+      "stage": "understand",
+      "router": "bounded keyword policy; explicit dates/constraints supplied structurally"
+    },
+    {
+      "stage": "plan",
+      "tools": [
+        "compare_periods"
+      ]
+    },
+    {
+      "stage": "investigate"
+    },
+    {
+      "stage": "validate",
+      "valid": true
+    },
+    {
+      "stage": "report"
+    }
+  ],
+  "latency_ms": 30.96699999878183
+}

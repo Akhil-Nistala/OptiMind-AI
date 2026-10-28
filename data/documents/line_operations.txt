@@ -1,0 +1,9 @@
+Demonstration production-line operating notes. This is an authored synthetic procedure, not a manufacturer's manual.
+
+Throughput investigation: Compare completed quantity against the production target for equal-length periods. Calculate throughput as completed units per scheduled shift minute; calculate attainment as completed quantity divided by target. A fall in completed quantity alone does not identify a cause. Compare the machine-level contributions before prioritizing an inspection.
+
+Downtime investigation: Review logged downtime minutes, machine availability, planned versus actual processing time and missing records. More downtime alongside lower production is an association, not proof of causation. Confirm hypotheses with maintenance tickets, alarm history and operator observations. A compressed-air fault is only a hypothesis unless pressure or leak evidence exists.
+
+Utilization: Busy utilization equals actual processing minutes divided by scheduled shift minutes. Availability equals scheduled minutes minus downtime, divided by scheduled minutes. Do not add downtime to busy processing if their definitions overlap. The synthetic records define processing and downtime as disjoint and scheduled shift duration as 480 minutes. Utilization is not OEE: quality and ideal cycle-time measurements are absent.
+
+Missing data: A missing downtime value is unknown, not zero. Report how many records are missing and the sum of known downtime separately. Never claim a complete downtime total from an incomplete column. If an entire requested period has no rows, report insufficient data rather than a zero-production week.

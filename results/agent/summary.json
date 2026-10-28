@@ -1,0 +1,13 @@
+{
+  "cases": 12,
+  "tool_selection_accuracy": 1.0,
+  "numeric_reference_accuracy": 1.0,
+  "support_decision_accuracy": 1.0,
+  "grounding_structure_accuracy": 1.0,
+  "citation_span_accuracy": 1.0,
+  "schedule_feasibility_rate": 1.0,
+  "unnecessary_tool_calls": 0,
+  "median_warm_latency_ms": 68.9034500028356,
+  "p95_warm_latency_ms": 2124.26664000377,
+  "methodology": "12 authored routing/support scenarios. Numeric references are direct Python sums of original generator records, independent of investigative SQL/Pandas calculations. Grounding is structural evidence tracing and explicit causal caveat checks, not independent semantic adjudication. Model startup excluded."
+}
